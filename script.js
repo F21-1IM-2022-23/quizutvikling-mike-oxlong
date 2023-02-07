@@ -7,13 +7,13 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "Hvilket land sitt flagg er dette?",
     options: [
-      { text: "Alternativ 1", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "Alternativ 2", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Alternativ 3", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "Vietnam", correct: false }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "Kambodsja", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "Indonesia", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
-    imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1200px-Flag_of_Cambodia.svg.png',
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -43,7 +43,11 @@ const questions = [
       { text: "Texas", correct: false },
       { text: "Arabia", correct: false }
     ],
+<<<<<<< HEAD
     imageUrl: 'https://unsplash.it/400/200',
+=======
+    imageUrl: 'https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg',
+>>>>>>> 1ee060b1ab103e262ed65d1d883798939def5b5c
     altText: 'Beskrivelse av bilde'
   },
   {
