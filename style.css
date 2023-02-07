@@ -18,7 +18,7 @@ body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplas
 }
 
 header { /* påvirker headeren, som inneholder "Quiz"-teksten */
-    background-color: lightgray;
+    background-color: rgb(231, 60, 60);
     text-align: center;
     place-content: center;
 }
@@ -34,7 +34,7 @@ main { /* Plasserer og fordeler inneholdet som ligger i main */
 }
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(231, 60, 60);
     padding: 1em;
     text-align: center;
 }
