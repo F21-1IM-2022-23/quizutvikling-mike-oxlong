@@ -39,11 +39,11 @@ const questions = [
   {
     question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "chile", correct: true },
+      { text: "Chile", correct: true },
       { text: "Texas", correct: false },
       { text: "Arabia", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jetpunk.com%2Fuser-quizzes%2F1608791%2Frandom-flags-part-2&psig=AOvVaw3EdJ-s1VtRdIjnDJWrGtJ6&ust=1675848687727000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjewv-Mg_0CFQAAAAAdAAAAABAe',
     altText: 'Beskrivelse av bilde'
   },
   {
