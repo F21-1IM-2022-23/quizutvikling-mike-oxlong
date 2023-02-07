@@ -1,0 +1,68 @@
+* { /* God praksis som gjør objekter lettere å jobbe med, og fjerner automatisk plassert marg*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplass både på mobil og PC*/
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.oppsett { /* Gjør at innholdet strekker seg utover tilgjengelig skjermplass*/
+    display: grid;
+    grid-template-rows: 
+        auto
+        1fr
+        auto;
+}
+
+header { /* påvirker headeren, som inneholder "Quiz"-teksten */
+    background-color: lightgray;
+    text-align: center;
+    place-content: center;
+}
+
+main { /* Plasserer og fordeler inneholdet som ligger i main */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 { /* Denne påvirker stilen til overskriften i headeren */
+    font-size: 3rem;
+}
+
+h2 { /* Denne påvirker stilen til Quiz-overskriften "hva kan du om [tema]?" */
+    font-size: 2rem;
+}
+
+h3 { /* Denne påvirker stilen til hvert spørmål */
+    font-size: 1.4rem;
+}
+
+h4 { /* Denne påvirker kun teksten i footeren */
+    font-size: 1.2rem;
+}
+
+p { /* Påvirker kun startteksten som påvirker beskriver*/
+    font-size: 1rem;
+}
+
+.resultater { /* Alle font relaterte stiler i denne klassen vil påvirke resultat-tallet */
+    display:none;
+}
+
+button { /* påvirker stilen til knappene, det kan være lurt å gi de padding, margin og kanskje noe penere utseende */
+    font-size: 1rem;
+}
