@@ -7,7 +7,7 @@ const questions = [
     ]
   },
   {
-    question: "[Hvilket land sitt flagg er dette?]?",
+    question: "Hvilket land sitt flagg er dette?",
     options: [
       { text: "Vietnam", correct: false }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
       { text: "Kambodsja", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
