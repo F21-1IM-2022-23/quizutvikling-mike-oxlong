@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Quiz</title>
+</head>
+<body class="oppsett">
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Hva kan du om [tema]?</h2> <!-- Det første spørsmålet må være identisk med det første spørsmålet i script-filen -->
+        </div>
+        <div id="questionContainer">
+            <p>[Sett inn eventuell beskrivelse her]</p>
+            <div>
+              <button type="button" onclick="handleOptionClick(false)">Start quizen!</button>
+            </div>
+        </div>
+        <div id="resultContainer" class="resultater"></div>
+    </main>
+    <footer>
+        <p>Quiz laget av [gruppenavn]</p>
+    </footer>
+</body>
+</html>
