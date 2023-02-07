@@ -53,7 +53,7 @@ const questions = [
       { text: "Røde kors", correct: false },
       { text: "Sveits", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://www.generatormix.com/%2Fimages%2Fflag%2Fswitzerland.jpg',
     altText: 'Beskrivelse av bilde'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
