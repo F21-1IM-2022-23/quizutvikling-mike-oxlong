@@ -37,11 +37,11 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "chile", correct: true },
+      { text: "Texas", correct: false },
+      { text: "Arabia", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
