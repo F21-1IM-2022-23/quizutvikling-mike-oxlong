@@ -17,13 +17,13 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 2 her]?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Alternativ I", correct: true },
-      { text: "Alternativ II", correct: false },
-      { text: "Alternativ III", correct: false }
+      { text: "Norge", correct: false },
+      { text: "Svergie", correct: false },
+      { text: "USA", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png',
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -37,23 +37,27 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "Hvem sitt flag er dette?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Chile", correct: true },
+      { text: "chile", correct: true },
       { text: "Texas", correct: false },
       { text: "Arabia", correct: false }
     ],
+<<<<<<< HEAD
+    imageUrl: 'https://unsplash.it/400/200',
+=======
     imageUrl: 'https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg',
+>>>>>>> 1ee060b1ab103e262ed65d1d883798939def5b5c
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "Hvem sitt flag er dette?",
+    question: "[Skriv spørsmål 5 her]?",
     options: [
-      { text: "Albania", correct: false },
-      { text: "Røde kors", correct: false },
-      { text: "Sveits", correct: true }
+      { text: "Alternativ -", correct: true },
+      { text: "Alternativ +", correct: false },
+      { text: "Alternativ x", correct: false }
     ],
-    imageUrl: 'https://www.generatormix.com/%2Fimages%2Fflag%2Fswitzerland.jpg',
+    imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
