@@ -43,7 +43,7 @@ const questions = [
       { text: "Texas", correct: false },
       { text: "Arabia", correct: false }
     ],
-    imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.jetpunk.com%2Fuser-quizzes%2F1608791%2Frandom-flags-part-2&psig=AOvVaw3EdJ-s1VtRdIjnDJWrGtJ6&ust=1675848687727000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjewv-Mg_0CFQAAAAAdAAAAABAe',
+    imageUrl: 'https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg',
     altText: 'Beskrivelse av bilde'
   },
   {
