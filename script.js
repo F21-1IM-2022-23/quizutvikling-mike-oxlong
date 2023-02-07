@@ -43,11 +43,7 @@ const questions = [
       { text: "Texas", correct: false },
       { text: "Arabia", correct: false }
     ],
-<<<<<<< HEAD
-    imageUrl: 'https://unsplash.it/400/200',
-=======
     imageUrl: 'https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg',
->>>>>>> 1ee060b1ab103e262ed65d1d883798939def5b5c
     altText: 'Beskrivelse av bilde'
   },
   {
