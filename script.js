@@ -9,9 +9,9 @@ const questions = [
   {
     question: "[Hvilket land sitt flagg er dette?]?",
     options: [
-      { text: "Vietnam", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "Indonesia", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Bangladesh", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "Vietnam", correct: false }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "Kambodsja", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "Indonesia", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1200px-Flag_of_Cambodia.svg.png',
     altText: 'Beskrivelse av bilde'
