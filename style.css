@@ -18,7 +18,7 @@ body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplas
 }
 
 header { /* påvirker headeren, som inneholder "Quiz"-teksten */
-    background-color: lightgray;
+    background-color: rgb(231, 60, 60);
     text-align: center;
     place-content: center;
 }
@@ -34,35 +34,43 @@ main { /* Plasserer og fordeler inneholdet som ligger i main */
 }
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(231, 60, 60);
     padding: 1em;
     text-align: center;
 }
 
 h1 { /* Denne påvirker stilen til overskriften i headeren */
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: sans-serif;
 }
 
 h2 { /* Denne påvirker stilen til Quiz-overskriften "hva kan du om [tema]?" */
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: sans-serif;
 }
 
 h3 { /* Denne påvirker stilen til hvert spørmål */
     font-size: 1.4rem;
+    font-family: sans-serif;
 }
 
 h4 { /* Denne påvirker kun teksten i footeren */
     font-size: 1.2rem;
+    font-family: sans-serif;
 }
 
 p { /* Påvirker kun startteksten som påvirker beskriver*/
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
 }
 
 .resultater { /* Alle font relaterte stiler i denne klassen vil påvirke resultat-tallet */
     display:none;
+    font-family: sans-serif;
 }
 
 button { /* påvirker stilen til knappene, det kan være lurt å gi de padding, margin og kanskje noe penere utseende */
-    font-size: 1rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: rgb(231, 80, 80);
 }

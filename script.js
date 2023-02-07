@@ -7,53 +7,53 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "Hvilket land sitt flagg er dette?",
     options: [
-      { text: "Alternativ 1", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "Alternativ 2", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Alternativ 3", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "Vietnam", correct: false }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "Kambodsja", correct: true }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "Indonesia", correct: false } //Siste spørsmålslinje skal ikke ha komma.
     ],
-    imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/1200px-Flag_of_Cambodia.svg.png',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 2 her]?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Alternativ I", correct: true },
-      { text: "Alternativ II", correct: false },
-      { text: "Alternativ III", correct: false }
+      { text: "Norge", correct: false },
+      { text: "Svergie", correct: false },
+      { text: "USA", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 3 her]?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Alternativ A", correct: true },
-      { text: "Alternativ B", correct: false },
-      { text: "Alternativ C", correct: false }
+      { text: "Polen", correct: false },
+      { text: "Indonesia", correct: true },
+      { text: "Singapore", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://media.snl.no/media/18327/standard_indo.gif',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "chile", correct: true },
+      { text: "Texas", correct: false },
+      { text: "Arabia", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://cdn.britannica.com/85/7485-004-00B07230/Flag-Chile.jpg',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Hvem sitt flag erd dette ?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "Albania", correct: true },
+      { text: "Sveits", correct: false },
+      { text: "et dyr", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg',
     altText: 'Beskrivelse av bilde'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
