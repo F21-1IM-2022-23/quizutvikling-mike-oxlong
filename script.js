@@ -37,7 +37,7 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Hvem sitt flag er dette]?",
+    question: "Hvem sitt flag er dette?",
     options: [
       { text: "Chile", correct: true },
       { text: "Texas", correct: false },
@@ -47,11 +47,11 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Hvem sitt flag er dette?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "Albania", correct: false },
+      { text: "Røde kors", correct: false },
+      { text: "Sveits", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
