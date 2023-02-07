@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Quiz</title>
+</head>
+<body class="oppsett">
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main class="senter">
+        <h1>Spørsmål</h1>
+        <div id="questionContainer">
+            <h2>[Skriv spørsmål 1 her]?</h2>
+            <img src="https://unsplash.it/400/200" alt="bilde1"> <!-- dette genererer et tilfeldig bilde i 400x200px, og bør byttes ut -->
+            <div>
+              <button type="button" onclick="handleOptionClick(false)">Alternativ 1</button>
+              <button type="button" onclick="handleOptionClick(true)">Alternativ 2</button>
+              <button type="button" onclick="handleOptionClick(false)">Alternativ 3</button>
+            </div>
+        </div>
+        <div id="resultContainer" class="resultater"></div>
+    </main>
+    <footer>
+        <p>Quiz laget av [gruppenavn]</p>
+    </footer>
+</body>
+</html>

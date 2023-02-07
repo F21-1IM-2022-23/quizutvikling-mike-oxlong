@@ -1,0 +1,40 @@
+* { /* God praksis som gjør objekter lettere å jobbe med, og fjerner automatisk plassert marg*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplass både på mobil og PC*/
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+.oppsett { /* Gjør at innholdet strekker seg utover tilgjengelig område*/
+    display: grid;
+    grid-template-rows: 
+        auto
+        1fr
+        auto;
+}
+
+header { /* Gjør at tekst og bilde overlapper*/
+    background-color: lightgray;
+    text-align: center;
+    place-content: center;
+}
+
+.senter {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 1em;
+    text-align: center;
+}
+
+.resultater {
+    display:none;
+}
