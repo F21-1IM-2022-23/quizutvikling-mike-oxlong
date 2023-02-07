@@ -47,13 +47,13 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Hvem sitt flag erd dette ?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "Albania", correct: true },
+      { text: "Sveits", correct: false },
+      { text: "et dyr", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg',
     altText: 'Beskrivelse av bilde'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
