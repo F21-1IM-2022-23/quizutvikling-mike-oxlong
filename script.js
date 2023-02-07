@@ -27,13 +27,13 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 3 her]?",
+    question: "[Hvem sitt flag er dette]?",
     options: [
-      { text: "Alternativ A", correct: true },
-      { text: "Alternativ B", correct: false },
-      { text: "Alternativ C", correct: false }
+      { text: "Polen", correct: false },
+      { text: "Indonesia", correct: true },
+      { text: "Singapore", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://media.snl.no/media/18327/standard_indo.gif',
     altText: 'Beskrivelse av bilde'
   },
   {
