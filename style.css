@@ -70,6 +70,7 @@ p { /* Påvirker kun startteksten som påvirker beskriver*/
 }
 
 button { /* påvirker stilen til knappene, det kan være lurt å gi de padding, margin og kanskje noe penere utseende */
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: sans-serif;
+    background-color: rgb(231, 80, 80);
 }
