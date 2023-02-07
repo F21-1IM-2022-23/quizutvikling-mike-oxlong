@@ -40,11 +40,11 @@ footer {
 }
 
 h1 { /* Denne påvirker stilen til overskriften i headeren */
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 h2 { /* Denne påvirker stilen til Quiz-overskriften "hva kan du om [tema]?" */
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h3 { /* Denne påvirker stilen til hvert spørmål */
